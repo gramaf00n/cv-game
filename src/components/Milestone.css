@@ -1,0 +1,17 @@
+.milestone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.milestone h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.milestone p {
+  font-size: 20px;
+}

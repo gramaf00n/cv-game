@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  font-family: sans-serif;
+}
+
+.track {
+  display: flex;
+  width: 500vw;
+  height: 100vh;
+  background: linear-gradient(to right, #141e30, #243b55);
+  align-items: center;
+  position: relative;
+}
+
+.character {
+  position: fixed;
+  bottom: 30px;
+  left: 50px;
+  z-index: 1000;
+  font-size: 48px;
+}
+
+.milestone {
+  min-width: 100vw;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
